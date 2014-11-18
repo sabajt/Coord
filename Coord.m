@@ -8,15 +8,15 @@
 CGFloat const kDefaultUnitWidth = 50.0f;
 CGFloat const kDefaultUnitHeight = 50.0f;
 
-NSString *const kDirectionNorth = @"up";
-NSString *const kDirectionEast = @"right";
-NSString *const kDirectionSouth = @"down";
-NSString *const kDirectionWest = @"left";
+NSString *const kDirectionNorth = @"N";
+NSString *const kDirectionEast = @"E";
+NSString *const kDirectionSouth = @"S";
+NSString *const kDirectionWest = @"W";
 
-NSString *const kDirectionNorthWest = @"upLeft";
-NSString *const kDirectionNorthEast = @"upRight";
-NSString *const kDirectionSouthWest = @"downLeft";
-NSString *const kDirectionSouthEast = @"downRight";
+NSString *const kDirectionNorthWest = @"NW";
+NSString *const kDirectionNorthEast = @"NE";
+NSString *const kDirectionSouthWest = @"SW";
+NSString *const kDirectionSouthEast = @"SE";
 
 @implementation Coord
 
